@@ -69,7 +69,7 @@ def main():
                              text=log_entry)
 
     log_format = '%(asctime)s, Level - %(levelname)s, file %(filename)s, Line %(lineno)d - %(message)s'
-    logging.basicConfig(level=logging.DEBUG,
+    logging.basicConfig(level=logging.WARNING,
                         format=log_format)
     logger = logging.getLogger("HomeWorkChecker")
     logger.addHandler(MyLogsHandler())
