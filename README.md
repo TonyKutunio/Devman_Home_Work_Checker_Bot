@@ -1,5 +1,5 @@
 # Devman Telegram Bot
-This Bot will sends notifications of code review from Devman to the telegram.
+This Bot sends notifications of code review from Devman to the telegram.
   
    
 ## How to install
